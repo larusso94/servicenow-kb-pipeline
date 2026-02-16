@@ -1,0 +1,47 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    
+    "COSMOS_ENDPOINT": "https://YOUR_COSMOS_ACCOUNT.documents.azure.com:443/",
+    "COSMOS_KEY": "YOUR_COSMOS_PRIMARY_KEY",
+    "COSMOS_DATABASE": "itchatbot",
+    "COSMOS_CONTAINER_VECTORS": "vstore",
+    "COSMOS_PARTITION_KEY": "/id",
+    
+    "OPENAI_API_BASE": "https://YOUR_OPENAI_RESOURCE.openai.azure.com/",
+    "OPENAI_API_KEY": "YOUR_OPENAI_API_KEY",
+    "OPENAI_API_VERSION": "2024-02-15-preview",
+    "OPENAI_EMBED_DEPLOYMENT_NAME": "text-embedding-3-large",
+    "OPENAI_DEPLOYMENT_NAME": "gpt-4o-mini",
+    "EMBED_MODEL_NAME": "text-embedding-3-large",
+    "EMBED_DIM": "1536",
+    
+    "SERVICENOW_INSTANCE_URL": "https://YOUR_INSTANCE.service-now.com",
+    "SERVICENOW_USERNAME": "YOUR_USERNAME",
+    "SERVICENOW_PASSWORD": "YOUR_PASSWORD",
+    "SERVICENOW_TOKEN": "",
+    "SERVICENOW_OAUTH_CLIENT_ID": "",
+    "SERVICENOW_OAUTH_CLIENT_SECRET": "",
+    "SERVICENOW_REMOTE": "true",
+    "SERVICENOW_TIMEOUT": "30.0",
+    "SERVICENOW_KB_TABLE": "kb_knowledge",
+    "SERVICENOW_KB_FIELDS": "sys_id,number,short_description,text,sys_updated_on,keywords",
+    "SERVICENOW_PAGE_SIZE": "100",
+    "SERVICENOW_KB_URL_PATTERN": "sp/{articlename}?id=kb_article_view&sysparm_article={article_id}",
+    
+    "KB_REFRESH_MAX_DOCS": "0",
+    "UPSERT_BATCH_SIZE": "25",
+    "ENABLE_DOCUMENT_SUMMARIES": "true",
+    
+    "CHUNK_TARGET_TOKENS": "400",
+    "CHUNK_MAX_TOKENS": "450",
+    "CHUNK_OVERLAP_TOKENS": "50",
+    "CHUNK_MIN_CHUNK_TOKENS": "60",
+    "TIKTOKEN_DEFAULT_ENCODING": "cl100k_base",
+    "TOKEN_ESTIMATION_RATIO": "4",
+    
+    "LOG_LEVEL": "INFO"
+  }
+}

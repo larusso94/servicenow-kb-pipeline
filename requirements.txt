@@ -1,0 +1,28 @@
+# Azure Functions Core
+azure-functions
+
+# Essential HTTP client - REQUIRED
+requests
+
+# Azure Services  
+azure-cosmos
+azure-identity
+
+# OpenAI Integration
+openai
+
+# Text Processing and Chunking
+tiktoken
+html2text
+
+# Structured Logging
+structlog
+
+# Environment Configuration
+python-dotenv
+
+# Additional dependencies that may be missing
+urllib3
+certifi
+charset-normalizer
+idna
